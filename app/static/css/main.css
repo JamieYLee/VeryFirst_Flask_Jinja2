@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.navbar, .navbar-inverse {
+  border-radius: 0px;
+}
+
+.btn {
+  width: 100%;
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+footer p {
+  background-color: #222;
+  color: #9d9d9d;
+  padding: 25px;
+}
