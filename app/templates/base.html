@@ -21,7 +21,9 @@
         <li><a href="{{ url_for('logout') }}">Logout</a></li>
       {% endif %}
     </ul>
-    <p class="navbar-text">Some text</p>
+    {% if current_user.is_authenticated %}
+    <p class="navbar-text pull-right">Hi {{ current_user.username }}!</p>
+    {% endif %}
   </nav>
   {% endblock %}
 
